@@ -4,6 +4,8 @@ import "fmt"
 
 func ChessTableRev1() {
 
+	fmt.Println("Вариант программы v1")
+
 	col := 8
 	str := 8
 
@@ -31,6 +33,8 @@ func ChessTableRev1() {
 }
 
 func ChessTableRev2() {
+
+	fmt.Println("Вариант программы v2")
 	
 	col := 8
 	str := 8
@@ -49,8 +53,6 @@ func ChessTableRev2() {
 }
 
 func main() {
-	fmt.Println("Вариант программы v1")
 	ChessTableRev1()
-	fmt.Println("Вариант программы v2")
 	ChessTableRev2()
 }
